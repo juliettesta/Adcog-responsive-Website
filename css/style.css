@@ -1,0 +1,338 @@
+/* Bouton supprimer sur la page Modifieroffre.php */
+.btnSupprimer {
+    background-color: #B60125;
+    color: #FFF;
+}
+.Adroite{
+    text-align: right;
+}
+
+/* Couleur des liens */
+a {
+    color :#204d74;
+}
+
+/* Formulaire */
+.formulaire {
+    margin: 0px 30px;
+}
+
+td {
+    padding: 3px 10px;
+    width: 200px;
+}
+
+.submit {
+    text-align: center;
+}
+.erreur {
+    color: red;
+}
+.confirmation {
+    margin: 20px auto 0px auto;
+    padding: 5px;
+    width: 85%;
+    background-color: #666;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #666;
+    color : white;
+    text-align: center;
+    padding: 20px 0px;
+}
+a.footer {
+    color: white;
+    text-decoration: none;
+}
+
+/* CONTENU */
+.bordureDouce{
+    border:1px solid #aaa;
+}
+.bordureTresDouce{
+    border:1px solid #ddd;
+}
+
+.fondClair{
+    background-color:#ddd;
+            color:black;
+
+}
+
+.fondFonce{
+    background-color:#ccc;
+            color:black;
+
+}
+
+.fondJauneClair{
+    background-color:#FEFEC4;
+            color:black;
+
+}
+
+.fondJauneFonce{
+    background-color:#FDF7A6;
+        color:black;
+}
+
+.fondFoncea{
+    background-color:#aaa;   
+    color:white;
+}
+
+.container {
+    background-color:#eee;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.bienvenue{
+    text-align: center;
+}
+
+.contact {
+   text-align: center;
+   padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+.h5{
+    text-align: center;
+}
+
+.gros {
+    font-size:x-large;
+}
+
+.btn-group-sm>.btn, .btn-sm
+{
+    padding :3px 3px;
+}
+
+.btn-primary:hover {
+    background-color:#269abc;
+        border-color:#777;
+}
+
+.alert-info {
+        background-color:#262626;
+        color:white;
+        border-radius:10px;
+        margin-left:55px;
+        margin-right:55px;
+        margin-top: 10px;
+}
+
+/* IMAGES */
+.imageProfil{
+    height:250px;
+    margin-left:auto;
+}
+
+.imageconnexion {
+    text-align: center;
+    padding: 20px;
+}
+
+.imageOffre {
+    margin-top: 17px;
+    max-width: 148px;
+    max-height:220px;
+}
+
+/*!!! A REGARDER ATTENTIVEMENT !!!*/
+.imageEntreprise {
+    min-height:50px;
+    max-width: 300px;
+    max-height:200px;  
+}
+
+.imageTailleLogo{
+    height:50px;
+}
+
+.imagePanier{
+    height:35px;                 
+}              
+
+              
+/* MARGES */
+.margeGauche {
+    margin-left: 70px;
+}
+
+.margeGauchebis {
+    margin-left: 45px;
+}
+
+.margeDroite {
+    margin-right: 30px;
+}
+
+.margeSimpson {
+    margin-top: 17px;
+}
+
+.margeSimpson2 {
+    margin-top: 60px;
+}
+
+.espacement {
+    padding: 60px;
+    width:auto;
+}
+
+.espacement2 {
+    padding: 10px;
+}
+.espacement3 {
+    padding: 6px;
+}
+
+.tableCentre {
+    margin:auto;
+}
+
+.centrons {
+    text-align: center;
+}
+
+.enBasADroite {
+    align-content: right;
+    text-align:right;
+}
+
+.centreOffre{
+        margin-left:35px;
+        margin-right:35px;
+}
+
+.centreVertical {
+  display: flex; /* contexte sur le parent */
+  flex-direction: column; /* direction d'affichage verticale */
+  justify-content: center; /* alignement vertical */
+}
+
+/* AFFICHAGE */
+.navCouleurContainer {
+    font-size: 16px;
+    font-weight: bold;
+    background-color:#eee !important;
+    color:#666 !important;
+}
+
+/* HEADER */
+/* Partie header navigation */
+.blanc {
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 0px;
+}
+
+.navbar-default{
+    margin-bottom: 0px;
+}
+
+.navbar-brand > img { /*le style.css s'applique par dessus le bootstrap, 
+                      et là  on prend les balises img dans les balises classe navbar brand*/
+    height: 35px;
+    margin-top: -8px;
+}
+
+.navbar-right {
+    margin:0px;
+}
+
+/* Barre navigation principale */
+.gris {
+        background-color: #666;
+        border: none;
+        border-radius: 0px;
+}
+
+.navPrincipale {
+    color: #FFFFFF !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Barre navigation secondaire */
+
+.grisclair {
+        background-color: #eee;
+        border: none;
+        border-radius: 0px;
+}
+.navSecondaire {
+    color: #666 !important;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding-top: 14px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Menu descendant */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color:#e0e0e0 ;
+}
+
+/* Liens dans le menu descendant */
+.dropdown-content a {
+    padding: 12px 16px;
+    color:#666;
+    text-decoration: none;
+    display: block;
+}
+
+/* Couleur du lien lorsque la souris passe dessus */
+.dropdown-content a:hover {background-color: #bfbfbf}
+
+/* Permet de montrer le menu descendant */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* couleur de "offre" lorsque la souris passe dessus */
+.dropdown:hover .dropbtn {
+    /*background-color:#666*/;
+}
